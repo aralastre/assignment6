@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB700</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/theme.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            margin: 10px;
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <main class="col-md-12">
+
+                <!-- Tables Section -->
+                <section>
+                    <h2>Tables</h2>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="1">List of Cars</th>
+                                <th colspan="1">Make</th>
+                                <th colspan="1">Model</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">1</td>
+                                <td>Toyota</td>
+                                <td>Corolla</td>
+                            </tr>
+                            <tr>
+                                <td>Ford</td>
+                                <td>Mustang</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">2</td>
+                                <td>Honda</td>
+                                <td>Jeep</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>This section demonstrates how two tables created using HTML5. Tables are a fundamental part of web design, used for displaying tabular data.</p>
+                </section>
+
+                
+                <section>
+                     <!-- Images Section -->
+                    <h2>Images</h2>
+                    <div class="image-container">
+                        <img src="https://cats.com/wp-content/uploads/2023/09/fluffy-cat-lies-on-the-windowsill-and-looks-into-the-camera.jpg" alt="cat">
+                        <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg" alt="dog">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder in halfpipe">
+                    </div>
+                    <p>This section demonstrates the use of images in HTML.</p>
+                </section>
+
+            
+                <section>
+                    <!-- Audio Section -->
+                    <h2>Audio</h2>
+                    <audio controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>This section demonstrates the use of audio in HTML.</p>
+                </section>
+
+                
+                    <!-- Video Section -->
+                    <h2>Video</h2>
+                    <video controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                    <p>This section contains an HTML video player.</p>
